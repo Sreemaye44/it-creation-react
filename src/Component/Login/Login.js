@@ -12,9 +12,9 @@ const Login = () => {
     }
     return (
         <div className='w-10/12 mx-auto'>
-            <h1 className='font-bold text-3xl mt-10'>IT <span className='text-violet-500'>CReation</span></h1>
+            <h1 className='font-bold text-3xl mt-20 text-center'>IT <span className='text-violet-500'>CReation</span></h1>
             <div>
-                <h2 className='font-bold text-xl mt-10 mb-5'>HELLO SIGN IN</h2>
+                <h2 className='font-bold text-xl mt-20 mb-10 text-center'>HELLO SIGN IN</h2>
                 <form onSubmit={handleLogin}>
         <div className="form-control">
           <label className="label">
@@ -53,7 +53,7 @@ const Login = () => {
         </div>
         <div className="form-control mt-6">
                         <Link to='/home'><input className='btn bg-violet-500 border-none mb-5 w-full' type="submit" value="Sign In" /></Link>
-                        <div className='mt-10 text-sm font-semibold'>
+                        <div className='mt-20 text-sm font-semibold text-center'>
                             Don't have an account? <span className='text-violet-500'>Sign up</span>
                         </div>
         
