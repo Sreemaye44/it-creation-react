@@ -1,5 +1,6 @@
 import React from 'react';
 import {FaEye, FaUserCircle } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     const handleLogin = event => {
@@ -51,7 +52,7 @@ const Login = () => {
                         </div>
         </div>
         <div className="form-control mt-6">
-                        <input className='btn bg-violet-500 border-none mb-5' type="submit" value="Sign In" />
+                        <Link to='/home'><input className='btn bg-violet-500 border-none mb-5 w-full' type="submit" value="Sign In" /></Link>
                         <div className='mt-10 text-sm font-semibold'>
                             Don't have an account? <span className='text-violet-500'>Sign up</span>
                         </div>

@@ -1,14 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Login from './Component/Login/Login';
-import ProfileDetails from './Component/Login/ProfileDetails';
-import HomeSwiper from './Component/Home/HomeSwiper';
+import { RouterProvider } from 'react-router-dom';
+import router from './Component/Route/Route';
 
 function App() {
   return (
     <div>
- 
-      <HomeSwiper></HomeSwiper>
+ <RouterProvider router= {router}></RouterProvider>
+      
     </div>
   );
 }

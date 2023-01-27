@@ -28,9 +28,7 @@ const ProfileDetails = () => {
                             <div className='absolute top-1/3 transform -translate-y-1/2 right-3 text-slate-600'><FaHome></FaHome></div>
                        </div>
                 <div className='relative flex'>
-                        <input type="text" name="userId" placeholder="Emp User Id" className="input input-bordered w-full" req
-                        
-                        uired />
+                        <input type="text" name="userId" placeholder="Emp User Id" className="input input-bordered w-full" required />
                             <div className='absolute top-1/2 transform -translate-y-1/2 right-3 text-slate-600'><FaClock></FaClock></div>
                     </div>
                     <select name="cars" id="cars" className='input input-bordered w-full text-slate-400'>
